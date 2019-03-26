@@ -40,4 +40,4 @@ function factorial(n,tatal) {
 }
  fac=factorial(10,1);
 console.log(fac);
-
+ 
