@@ -8,7 +8,7 @@
 // }
 // console.log(add(1,2));
 // //柯里化
-// function addX(y) {
+// function addX(y) {  
 //     return function (x) {
 //         return x+y;
 //     };
