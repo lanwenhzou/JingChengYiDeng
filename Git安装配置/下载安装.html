@@ -12,24 +12,24 @@
     <p>
         一：下载：https://msysgit.github.io
         二.安装：
-        1.选项：Adjusting your path => 批处理模式 use gitfrom Git bash only 选中
+            1.选项：Adjusting your path => 批处理模式 use gitfrom Git bash only 选中
         三 配置PATH ：根据安装目录路径配置
         四 配置 Git：打开终端 => git bash (windows) ， 检测git 版本 git --version (Linux)
-        1. 打开配置文件查看 git config --global -e //此处是配置全局的GIT 文件
-        2. 配置用户名和邮箱：
-        1. git config --global user.name "用户名"
-        2. git config --global user.email "邮箱"
-        3.配置SSH （方便推送免密钥登陆)
+            1. 打开配置文件查看 git config --global -e //此处是配置全局的GIT 文件
+            2. 配置用户名和邮箱：
+                1. git config --global user.name "用户名"
+                2. git config --global user.email "邮箱"
+                3.配置SSH （方便推送免密钥登陆)
         1.本地生成SSH密钥
         终端输入：ssh-keygen -t rsa -C "邮箱" =>一直回车健完成
         2.配置远程GIT ：settings => SSH and GPG keys
-        title:任意写一个标示性的名称
-        key:把本地生成idrsa.pub文件的全部内容拷贝到当前文本框中，
-            注意内容开头字符是否符合提示的字符。
+            title:任意写一个标示性的名称
+            key:把本地生成idrsa.pub文件的全部内容拷贝到当前文本框中，
+                  注意内容开头字符是否符合提示的字符。
         3.测试连接是否配置成功
         1. 终端输入 ssh -T git@github.com
-        如果本地和远程通信成功，则可以在用户目录下的“.ssh”目录下可以看到known_no 文件 或者
-        终端显示Hi “用户名”! You've successfully authenticated, but GitHub does not provide shell access.文本
+            如果本地和远程通信成功，则可以在用户目录下的“.ssh”目录下可以看到known_no 文件 或者
+            终端显示Hi “用户名”! You've successfully authenticated, but GitHub does not provide shell access.文本
     </p>
 </body>
 
